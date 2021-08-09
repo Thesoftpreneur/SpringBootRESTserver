@@ -1,9 +1,9 @@
-##Spring Boot Rest Server
+## Spring Boot Rest Server
 This project is an app that cruds data in the database.
 
-###Setup
+### Setup
 
-####Prerequirements
+#### Prerequirements
 * PostgresSQL with cmd tools (psql added to path)
 * Java 16
 * IntelliJ IDE
@@ -24,7 +24,7 @@ spring.datasource.password=your_password
 http://localhost:8080/api/v1/person
 ```
 
-####Requests
+#### Requests
 ```http request
 POST http://localhost:8080/api/v1/person
 Content-Type: application/json
@@ -36,7 +36,7 @@ Content-Type: application/json
 }
 ```
 
-####View data in cmd
+#### View data in cmd
 1. Log in to db with cmd (psql -U postgres)
 2. (Optional) List all the tables \d
 3. Give privileges to db: 
